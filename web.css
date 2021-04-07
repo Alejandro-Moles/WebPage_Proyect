@@ -5,7 +5,7 @@
 
 body{
     /* background: #313D52;*/
-   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/fondo.jpg);
+   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/fondo1.jpg);
    height: 100vh;
    background-size: cover;
 }
@@ -66,5 +66,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.buscar_texto{
+    height: 30px;
+    color: rgb(15, 15, 15);
+    font-size: 20px;
     
+}
+
+@media screen and (min-with:480px){
+    .buscar:hover > .buscar_texto{
+        width: 190px;
+    }
+}
+@media screen and (min-with:768px){
+    .buscar:hover > .buscar_texto{
+        width: 300px;
+    }
+}
+@media screen and (min-with:1024px){
+    .buscar:hover > .buscar_texto{
+        width: 500px;
+    }
 }
