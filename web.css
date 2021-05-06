@@ -4,21 +4,26 @@
 }
 
 body{
-    /* background: #313D52;*/
-   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/fondo1.jpg);
+
+   background: linear-gradient(rgba(3, 109, 112, 0.8), rgba(247, 237, 228, 0.8));
    height: 100vh;
    background-size: cover;
+   background-repeat: no-repeat;
+
 }
 
 .navegacion{
     text-align: center;
-    width: 800px;
+    width: 900px;
     margin: 30px auto;
-    background: rgb(165, 245, 234);
+    background: #333333;
+    font-size: 20px;
+    
 }
 
 .navegacion ul{
     list-style: none;
+    
 }
 
 .menu > li{
@@ -30,13 +35,15 @@ body{
     display:block;
 
     padding: 20px 100px;
-    color: #353535;
+    color: #ffffff;
     font-family: 'Open sans';
     text-decoration: none;
+    font-weight: bold;
+    
 }
 
 .menu li a:hover{
-    color: #CE7D35;
+    color: #00ffea;
     transition: all .3s;
 }
 
@@ -62,33 +69,24 @@ body{
     opacity: 1;
 }
 
-.buscar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.texto{
+    text-align: center;
+    background:linear-gradient(rgba(0, 44, 46, 0.8), rgba(12, 239, 255, 0.8));
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.buscar_texto{
-    height: 30px;
-    color: rgb(15, 15, 15);
-    font-size: 20px;
-    
+.texto h1{
+    color:#ffffff;
+    font-family:fantasy;
+    font-size: 40px;
 }
 
-@media screen and (min-with:480px){
-    .buscar:hover > .buscar_texto{
-        width: 190px;
-    }
-}
-@media screen and (min-with:768px){
-    .buscar:hover > .buscar_texto{
-        width: 300px;
-    }
-}
-@media screen and (min-with:1024px){
-    .buscar:hover > .buscar_texto{
-        width: 500px;
-    }
+.lorem{
+    color:rgb(218, 152, 144);
+    font-weight: bold;
 }
 
 
