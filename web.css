@@ -89,5 +89,17 @@ body{
     font-weight: bold;
 }
 
+footer{
+    position:relative;
+    margin-top: -10px;
+    width: 30px;
+    left: 40%;
+    padding: 50px;
+    clear: both;
+    text-align: center;
+}
 
+footer img{
+    width: 230px;
+}
 
