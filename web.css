@@ -101,7 +101,11 @@ footer{
 }
 
 footer img{
-    width: 230px;
+    width: 130px;
+}
+
+.img{
+    float: left;
 }
 
 
@@ -148,6 +152,10 @@ footer img{
         background: #333333;
         font-size: 20px;
         
+    }
+
+    footer img{
+        width: 30px;
     }
 
     
